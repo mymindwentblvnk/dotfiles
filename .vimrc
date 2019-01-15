@@ -36,6 +36,7 @@ set softtabstop=4
 set shiftround
 set autoindent
 set number
+set backspace=indent,eol,start
 
 set showcmd
 set showmatch
