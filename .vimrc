@@ -10,9 +10,6 @@ Plugin 'nvie/vim-flake8'
 Plugin 'tComment'
 Plugin 'scrooloose/nerdtree'
 Plugin 'vim-airline/vim-airline'
-Plugin 'tpope/vim-fugitive'
-Plugin 'kien/ctrlp.vim'
-Plugin 'vim-scripts/taglist.vim'
 call vundle#end()
 
 let mapleader = ","
