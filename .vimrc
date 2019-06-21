@@ -68,3 +68,13 @@ let g:ctrlp_mru_files = 1               " Enable Most Recently Used files featur
 let g:ctrlp_dotfiles = 1                " show (.) dotfiles in match list
 let g:ctrlp_dont_split = 'NERD_tree_2'  " don't split these buffers
 nmap <silent> ff :CtrlPBuffer<CR>
+
+
+if exists('$TMUX')
+    " Colors in tmux
+    let &t_8f = "<Esc>[38;2;%lu;%lu;%lum"
+    let &t_8b = "<Esc>[48;2;%lu;%lu;%lum"
+endif
+
+set termguicolors
+set background=dark
