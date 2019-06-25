@@ -1,5 +1,5 @@
-local blue=%{$fg[blue]%}
-local cyan=%{$fg[cyan]%}
+local blue=%{$fg_bold[blue]%}
+local cyan=%{$fg_bold[cyan]%}
 local green=%{$fg_bold[green]%}
 local red=%{$fg_bold[red]%}
 local yellow=%{$fg[yellow]%}
