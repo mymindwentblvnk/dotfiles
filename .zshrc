@@ -8,7 +8,7 @@ export ZSH="/Users/michael/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="mymindwentblvnk"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -73,6 +73,7 @@ plugins=(
     docker
     vagrant
     zsh-autosuggestions # git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+    zsh-history-substring-search # git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-history-substring-search
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -103,3 +104,17 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias cat="bat -p"
+
+# https://www.reddit.com/r/zsh/comments/46lf65/ohmyzsh_how_can_i_see_how_much_time_the_last/
+# function preexec() {
+#     timer=${timer:-$SECONDS}
+# }
+#
+# function precmd() {
+#     if [ $timer ]; then
+#         timer_show=$(($SECONDS - $timer))
+#         timer_show=$(printf '%.*f\n' 3 $timer_show)
+#         export RPROMPT="${timer_show} s"
+#         unset timer
+#     fi
+# }
