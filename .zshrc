@@ -70,8 +70,8 @@ ZSH_THEME="mymindwentblvnk"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
     git
-    docker
-    vagrant
+    # docker
+    # vagrant
     zsh-autosuggestions # git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
     zsh-history-substring-search # git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-history-substring-search
 )
