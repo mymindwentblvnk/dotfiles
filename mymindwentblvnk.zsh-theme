@@ -15,4 +15,4 @@ ZSH_THEME_GIT_PROMPT_CLEAN=")"
 
 ZSH_THEME_GIT_PROMPT_SUFFIX="${reset}"
 
-RPROMPT=""
+RPROMPT="${yellow}%*${reset}"
