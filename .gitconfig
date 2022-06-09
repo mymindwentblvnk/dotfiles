@@ -1,0 +1,8 @@
+[includeIf "gitdir:~/workspace-1/"]
+    path = ~/.gitconfig-1
+[includeIf "gitdir:~/workspace-2/"]
+    path = ~/.gitconfig-2
+[includeIf "gitdir:~/workspace-3/"]
+    path = ~/.gitconfig-3
+[core]
+    autocrlf = input
