@@ -118,3 +118,7 @@ alias cat="bat -p"
 #         unset timer
 #     fi
 # }
+
+if [ -f ~/.bash_profile ]; then 
+    . ~/.bash_profile;
+fi
