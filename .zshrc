@@ -121,3 +121,7 @@ alias cat="bat -p"
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+# https://apple.stackexchange.com/questions/206465/auto-updating-homebrew/423718#423718
+# This will confront you, in every new terminal, with the outdated packages. When your annoyance reaches the limit (you feel ready to update), you'll be happy to do the necessary.
+brew outdated
